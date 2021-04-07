@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Sentiment Analysis</title>
+    <style>
+        #button1 {
+            padding: 20px 30px;
+            background-color: black;
+            color: aliceblue;
+            text-decoration: none;
+            display: inline-block;
+            width: 300px;
+            margin-right: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 100%;
+        }
+
+        #button1:hover {
+            border: 1px solid black;
+            color: black;
+            background-color: white;
+        }
+
+        .btn-info {
+
+            margin-top: 15px;
+            height: 80px;
+            width: 200px;
+            margin-left: 500px;
+        }
+    </style>
+</head>
+
+<body style="background-image: url('./bg.png');  
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 50%;">
+    <div style="margin-top: 500px; height: 100px; width: 90%; margin-left: 125px;">
+
+        <form action="{{ url_for('predict')}}" method="POST">
+            <input type="text" name="message" placeholder="Enter Text Here... & click Enter"
+                style="border: none; width: 600px; height: 60px;  margin-left: 250px;  background-color: rgba(0, 0, 0, 0.5); color: rgb(255,255,255);  font-size: 30px; font-weight: bolder; padding-left: 100px; padding-top: 20px; padding-bottom: 20px; " />
+            <input type="submit" class="btn-info" value="Enter"
+                style="font-size: 30px;border: none;background-color: rgba(0, 0, 0, 0.5); color: rgb(255,255,255);font-weight: bolder; ">
+
+        </form>
+    </div>
+</body>
+
+</html>

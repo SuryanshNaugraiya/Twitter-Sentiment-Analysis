@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Twitter Sentiment Analysis</title>
+    <style>
+        body {
+            background-image: url(./result.jpg);
+            opacity: 0.9;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .text {
+            text-align: center;
+            font-variant: small-caps;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+        }
+
+        .text h2 {
+            /* text-transform: uppercase; */
+            color: red;
+            font-size: 55px;
+            font-variant: small-caps;
+            border-bottom: groove;
+        }
+
+        p {
+            text-align: center;
+            text-shadow: 2px gray;
+            font-size: 40px;
+            margin-top: 20px;
+            color: brown;
+
+        }
+
+        .results h2 {
+            text-align: center;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="text">
+            <h2>Tweets Analaysis</h2>
+        </div>
+    </header>
+    <p> <span
+            style="text-align: center;color: white;font-size: 30px;text-decoration: underline; margin-top: 0px; font-weight: bol;"><b>TWEET</b></span>
+        :
+    <p>
+        <span style="color: black; font-size: 40px;font-weight: bold; margin-top: 0;"> {{ tweet }} </span>
+    </p>
+    </p>
+    <p
+        style="text-align: center;color: white;font-size: 30px;text-decoration: underline; margin-top: 0px; font-weight: bold;">
+        <b> Results </b></p>
+    <br>
+
+    <div class="results">
+        <h2 style="color:black; text-align: center;margin-top: 0px;">{{ prediction }}</h2>
+
+    </div>
+</body>
+
+</html>

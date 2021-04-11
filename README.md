@@ -6,7 +6,7 @@
 #### A glimpse of the web app:
  ![](readme_resources/home.png)
  ![](readme_resources/result1.png)
- ![MP4](readme_resources/WhatsApp Video 2021-04-11 at 11.18.38 PM.mp4)
+ ![GIF](readme_resources/WhatsApp Video 2021-04-11 at 11.18.38 PM.gif)
 
 ## Table of Content
   * [Demo](#demo)

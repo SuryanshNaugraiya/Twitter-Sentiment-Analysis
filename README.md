@@ -4,8 +4,6 @@
 ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-yellow)
 
 #### A glimpse of the web app:
- ![](readme_resources/home.png)
- ![](readme_resources/result1.png)
  ![GIF](readme_resources/g.gif)
 
 ## Table of Content

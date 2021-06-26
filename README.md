@@ -1,4 +1,4 @@
-# Twitter-Sentiment-Analysis - Deployment
+# Twitter-Sentiment-Analyser
 ![Python 3.9](https://img.shields.io/badge/Python-3.9-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)
 ![Framework](https://img.shields.io/badge/Framework-Flask-red)
 ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-yellow)
